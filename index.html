@@ -1,15 +1,43 @@
 ---
 layout: default
-title: Oisin
+title: Home
 ---
-<div class="blurb">
-	<h1>Hi there, I'm Oisin.</h1>
-	<p>Welcome to my internet island 🏝</p>
-    <ul>
-        <li><a href="https://www.youtube.com/watch?v=73fnL7Jahdg&list=UUSLvNEMgYWGK59ce4OEU87Q">My youtube travel and diving channel.</a></li>
-        <li><a href="https://www.linkedin.com/in/oisinmulvihill">LinkedIn.</a></li>
-        <li><a href="https://github.com/oisinmulvihill">Github.</a></li>
-        <li><a href="https://www.instagram.com/oisinmulvihill/">Insta</a></li>
-        <li><a href="https://medium.com/@oisin.mulvihill">Medium</a></li>
-	</ul>
+<main id="main" class="site-main">
+
+{% if page.url == "/" %}
+<div class="hero inner">
+    <p class="hero-text">{{ site.author.greetings }}</p>
+</div>        
+{% endif %}
+
+{% if page.url == "/" %}
+<!-- Featured-->
+<div id="featured-posts" class="featured-posts">
+    {% for post in site.posts %}
+    {% if post.featured == true %}
+    {% include featuredbox.html %}
+    {% endif %}
+    {% endfor %}
 </div>
+
+{% endif%}
+
+<!-- Posts Index -->
+<div class="post-feed inner">
+    {% if page.url == "/" %}
+    <div class="post-feed-title">Latest Articles</div>
+    {% endif %}
+    <div class="post-feed inner-wide">
+        {% for post in paginator.posts %}
+            {% include postbox.html %}
+        {% endfor %}
+    </div>
+</div>
+<!-- Pagination-->
+{% include pagination.html %}
+{% if site.mailchimp_url %}
+    {% include newsletter-box.html %}
+{% endif %}
+</main>
+
+
