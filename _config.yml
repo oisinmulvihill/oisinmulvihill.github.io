@@ -1,12 +1,12 @@
 # Site setings
 name: 'Oisin'
-description: 'SCUBA Diver, CTO, Bottlewasher and floor sweeper.'
+description: 'SCUBA Diver | CTO | Advisor'
 meta_description: 'Oisin Mulvihill.'
 logo:
 # Author image is used in site sidebar and greetings in the home page hero text
 author:
   image: 'authorimage.jpg'
-  greetings: "Hi there! My name is Oisin Mulvihill. I'm an avid SCUBA diver and start-up based in London, England. It’s nice to meet you."
+  greetings: "Welcome to my internet island 🏝"
 favicon: 'assets/images/favicon.ico'
 baseurl: 
 production_url: https://highfalcon.com/
@@ -32,6 +32,7 @@ pinterest:
 linkedin: 'oisinmulvihill'
 producthunt:
 quora:
+stackoverflow: '932855/oisin'
 
 # Navigation
 navigation:
@@ -39,8 +40,8 @@ navigation:
     url: /
   - text: About
     url: /about
-  - text: Search
-    url: /search
+#  - text: Search
+#    url: /search
 
 # Required Plugins
 plugins_dir:

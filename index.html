@@ -10,6 +10,13 @@ title: Home
 </div>        
 {% endif %}
 
+<div class="inner">
+
+My youtube travel and diving channel.
+
+</div>
+
+
 {% if page.url == "/" %}
 <!-- Featured-->
 <div id="featured-posts" class="featured-posts">
@@ -24,7 +31,7 @@ title: Home
 
 <!-- Posts Index -->
 <div class="post-feed inner">
-    {% if page.url == "/" %}
+    {% if page.url == "/" and paginator.posts %}
     <div class="post-feed-title">Latest Articles</div>
     {% endif %}
     <div class="post-feed inner-wide">
@@ -35,6 +42,7 @@ title: Home
 </div>
 <!-- Pagination-->
 {% include pagination.html %}
+
 {% if site.mailchimp_url %}
     {% include newsletter-box.html %}
 {% endif %}
