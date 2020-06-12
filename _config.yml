@@ -40,6 +40,8 @@ navigation:
     url: /
   - text: About
     url: /about
+  - text: CV
+    url: /cv
 #  - text: Search
 #    url: /search
 
