@@ -4,6 +4,4 @@ title: About
 featured_image: /assets/images/pages/about.png
 ---
 
-Oisin Mulvihill is a
-
-*Thank You for reading!*
+Oisin Mulvihill likes to make things 🚀🏗 and go outside ⛰🏝.
