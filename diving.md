@@ -1,7 +1,6 @@
 ---
 layout: page
 title: 🌊 SCUBA Diving
-youtubeId: putYourIDHere
 ---
 
 SCUBA Diving is your chance to visit an alien world. I've been fortunate to dive in many different place. Check-out some of my visits here:

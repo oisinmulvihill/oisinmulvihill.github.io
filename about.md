@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: 🚀 About
 featured_image: /assets/images/pages/about.png
 ---
 
