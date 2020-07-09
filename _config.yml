@@ -1,6 +1,6 @@
 # Site setings
 name: 'Oisin'
-description: 'SCUBA Diver | CTO | Advisor'
+description: 'CTO | Interim | Advisor'
 meta_description: 'Oisin Mulvihill.'
 logo:
 # Author image is used in site sidebar and greetings in the home page hero text
@@ -40,6 +40,8 @@ navigation:
     url: /
   - text: About
     url: /about
+  - text: Diving
+    url: /diving
   - text: CV
     url: /CV
 #  - text: Search
