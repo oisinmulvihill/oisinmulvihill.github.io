@@ -13,6 +13,6 @@ My just-good-enough-hack to run Jekyll locally to aid development.
 # Remove previous build, install and update dependancies
 make run
 
-open http://0.0.0.0:4000
-
 </pre>
+
+Open http://0.0.0.0:4000
