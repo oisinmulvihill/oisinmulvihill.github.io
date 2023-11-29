@@ -1,6 +1,6 @@
 # Site setings
 name: 'Oisin'
-description: 'CTO | Interim | Advisor'
+description: 'Founding Engineer | CTO | Interim | Advisor'
 meta_description: 'Oisin Mulvihill.'
 logo:
 # Author image is used in site sidebar and greetings in the home page hero text
@@ -8,17 +8,17 @@ author:
   image: 'authorimage.jpg'
   greetings: "Welcome to my internet island 🏝"
 favicon: 'assets/images/favicon.ico'
-baseurl: 
+baseurl:
 production_url: https://highfalcon.com/
-disqus: 
-mailchimp_url: 
+disqus:
+mailchimp_url:
 # Add your GA Tracking Id
 ga_analytics:
 
 # Contact form setings
 email: oisin.mulvihill@gmali.com
-contact_page_description: 
-thankyou_page_description: 
+contact_page_description:
+thankyou_page_description:
 
 # Social links
 twitter: 'oisinmulvihill'
