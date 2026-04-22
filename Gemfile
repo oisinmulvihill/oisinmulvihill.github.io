@@ -9,3 +9,5 @@ group :jekyll_plugins do
   gem 'jekyll-sitemap'
 end
 
+
+gem 'kramdown', '>= 2.3.1'
