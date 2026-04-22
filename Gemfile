@@ -13,3 +13,5 @@ end
 gem 'kramdown', '>= 2.3.1'
 
 gem 'rexml', '>= 3.3.9'
+
+gem 'addressable', '>= 2.9.0'
