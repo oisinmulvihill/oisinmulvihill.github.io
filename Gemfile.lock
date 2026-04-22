@@ -80,6 +80,7 @@ DEPENDENCIES
   jekyll-seo-tag
   jekyll-sitemap
   kramdown (>= 2.3.1)
+  rexml (>= 3.3.9)
   tzinfo-data
 
 BUNDLED WITH
